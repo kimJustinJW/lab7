@@ -35,7 +35,7 @@ valueOf()+(h?'&utmxhash='+escape(h.substr(1)):'')+
 
 		<h4>Projects</h4>
 		{{#if min}}
-			Min! <button class="likeBtn">Like</button>
+			Min! <div class="likeCtr"><button class="btn btn-default likeBtn">Like</button></div>
 		{{else}}
 			{{#each projects}}
 				<div class="project" id="{{id}}">
